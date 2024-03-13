@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ekino</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+    	<a href="#" class="logo">EKINO</a>
+
+    	
+    	
+    	<nav>
+        
+              <ul>
+          
+          <li><a href="filmer.html">Filmer &bigtriangledown;</a>
+                  <ul>
+                    <li><a href="comfilm.html">Comedy</a></li>
+                    
+                    
+                  </ul>
+          </li>
+          
+          <li><a href="multer.html">Multer</a></li>
+
+
+        </ul>
+      </nav>
+    </div><br><br>
+    
+
+
+
+
+
+
+
+
+    <div class="main">
+      <div class="dzax">
+        <img src="https://amimg.intrdb.com/uploads/posts/2021-01/1610479525_-.jpg" class="nkar">
+
+      </div>
+      <div class="aj">
+        
+
+       <h3 class="girr">Հարրի Փոթերը և կիսարյուն արքայազնը [2009/ֆիլմ/հայերեն/12+]</h3><br><br>
+       <h4 class="gir">Ռեժիսյոր՝  Դեվիդ Յետս</h4><br><br>
+       <h4 class="gir">Դերասաններ՝  Թոմ Ֆելտոն, Էվաննա Լինչ, Մեգգի Սմիթ, Ռուպերտ Գրինթ, Էմմա Վաթսոն</h4><br><br>
+       <h4 class="gir">Տարեթիվ, երկիր՝  2009 | ԱՄՆ, Մեծ Բրիտանիա</h4><br><br>
+       <h4 class="gir">Թարգմանություն՝ [Հայերեն]</h4><br><br>
+       <h4 class="gir">Տևողություն՝ 02:24:01</h4>
+
+
+      </div>
+    </div> <br>
+    <div >
+      
+     <iframe src="https://armdb.org/player/39237" width="700" height="400" allowfullscreen=""></iframe>
+    </div><br><br>
+    <a href="index.html" class="back" >Back</a>
+
+
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+
+
+</script>
+</body>
+</html>

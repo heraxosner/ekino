@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ekino</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+    	<a href="#" class="logo">EKINO</a>
+
+    	
+    	
+    	<nav>
+        
+              <ul>
+          
+          <li><a href="filmer.html">Filmer &bigtriangledown;</a>
+                  <ul>
+                    <li><a href="comfilm.html">Comedy</a></li>
+                    
+                    
+                  </ul>
+          </li>
+          
+          <li><a href="multer.html">Multer</a></li>
+
+
+        </ul>
+      </nav>
+    </div><br><br>
+    
+
+
+
+
+
+
+
+
+    <div class="main">
+      <div class="dzax">
+        <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/42fd2959-0e98-4ce2-b24e-06392b4cb502/600x900" class="nkar">
+
+      </div>
+      <div class="aj">
+        
+
+       <h3 class="girr">Հարրի Փոթերը և գաղտնի սենյակը [2002/ֆիլմ/հայերեն/12+]</h3><br><br>
+       <h4 class="gir">Ռեժիսյոր՝  Քրիս Քոլամբուս</h4><br><br>
+       <h4 class="gir">Դերասաններ՝  Ալբուս Դամբլդոր, Քեննետ Բրենան, Բոնի Ռայթը, Ալան Ռիկմանը, Ռիչարդ Հարիսը, Մեգգի Սմիթը</h4><br><br>
+       <h4 class="gir">Տարեթիվ, երկիր՝  2002 | ԱՄՆ, Մեծ Բրիտանիա</h4><br><br>
+       <h4 class="gir">Թարգմանություն՝ [Հայերեն]</h4><br><br>
+       <h4 class="gir">Տևողություն՝ 02:32:00</h4>
+
+
+      </div>
+    </div> <br>
+    <div >
+      
+     <iframe width="560" height="315" src="https://intrdb.com/player/14547" frameborder="0" allowfullscreen=""></iframe>
+    </div><br><br>
+    <a href="index.html" class="back" >Back</a>
+
+
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+
+
+</script>
+</body>
+</html>
